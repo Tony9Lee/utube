@@ -11,7 +11,9 @@ const Navbar = () => (
       direction ="row" 
       alignItems="center" 
       p={2} 
-      sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', }}
+      sx={{ display: 'flex', 
+            flexDirection: 'row', 
+            justifyContent: 'space-between', }}
     >
       <div 
         style={{
