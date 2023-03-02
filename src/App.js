@@ -3,7 +3,11 @@ import { Box } from '@mui/material';
 import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from  './components';
 
 
-const App = () => {
+const App = () => {{
+    function handleCallbackResponse(response) {
+        console.log("Encoded JWT ID token: " + response.credential);
+    }
+}
     
     return (
         <BrowserRouter>

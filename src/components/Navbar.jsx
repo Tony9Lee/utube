@@ -11,9 +11,12 @@ const Navbar = () => (
       direction ="row" 
       alignItems="center" 
       p={2} 
-      sx={{ display: 'flex', 
-            flexDirection: 'row', 
-            justifyContent: 'space-between', }}
+      sx={{
+        display: 'flex', 
+        flexDirection: 'row', 
+        justifyContent: 'space-between',
+        width: '1500px',
+      }}
     >
       <div 
         style={{
@@ -27,13 +30,28 @@ const Navbar = () => (
         <Link to="/" >
           <img src={logo} alt="logo" height={45} />
         </Link>
-        <Login />
       </div>
-      <div style={{paddingRight:"50px"}}>
+      <div 
+        style={{
+          display: 'flex', 
+          flexDirection: 'row', 
+          alignItems: 'center', 
+          width: '600px',
+          justifyContent: 'end'
+
+        }}
+      >
+       <div 
+        style={{
+         paddingRight: '20px'
+        }}
+      >
+          <Login />
+        </div>
         <SearchBar />
       </div>
     </Stack>
   </Box>
 )
-
+// |a| |b c|
 export default Navbar;
