@@ -12,6 +12,7 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const fonticon = 'https://live.staticflickr.com/65535/52721254194_64bb4864a4_m.jpg'
 
 export const categories = [
   { name: 'Home', icon: <HomeIcon />, },
